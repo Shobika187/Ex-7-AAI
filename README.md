@@ -17,7 +17,7 @@ Step 5: Construct the main program to read the paragraph  and perform text summa
       - Generate and print the original text.<br>
       - Generate and print the text summary using the  Text Summarization function<br>
 <H3>Program :</H3>
-```
+
 !pip install nltk
 import nltk
 from nltk.corpus import stopwords
@@ -31,14 +31,11 @@ def preprocess_text(text):
 	# Remove stopwords and punctuation
 	stop_words= set(stopwords.words( 'english'))
 	filtered_words= [word for word in words if word. lower() not in stop_words and word.isalnum()]
-
 	# Stemming
 	stemmer = PorterStemmer()
-
 	stemmed_words= [stemmer. stem(word) for word in filtered_words]
 	return stemmed_words
 def generate_summary(text,num_sentences=3):
-
 	sentences= sent_tokenize(text)
 	preprocessed_text = preprocess_text(text)
 	# Calculate the frequency of each word
@@ -55,7 +52,6 @@ def generate_summary(text,num_sentences=3):
 					sentence_scores[sentence]+= freq
 	# Select top N sentences with highest scores
 	summary_sentences= sorted(sentence_scores, key=sentence_scores.get,reverse=True) [ : num_sentences]
-
 	return ' '. join(summary_sentences)
 if __name__=="__main__":
 	input_text ="""
@@ -68,7 +64,7 @@ print("Origina1 Text: ")
 print (input_text )
 print( " \nSummary : " )
 print(summary)
-```
+
 <H3>Output :</H3>
 
 ![Screenshot 2024-04-27 212327](https://github.com/Dhanashreemullaithasan/Ex-7-AAI/assets/94165415/13b5ddaf-c2ec-425b-9163-026d7ff66410)
