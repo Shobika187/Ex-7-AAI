@@ -77,6 +77,7 @@ print(summary)
 ![Screenshot 2024-04-27 212327](https://github.com/Dhanashreemullaithasan/Ex-7-AAI/assets/94165415/13b5ddaf-c2ec-425b-9163-026d7ff66410)
 
 <H3>Result:</H3>
+
 Thus ,the program to perform the Text summarization is executed sucessfully.
 
 
