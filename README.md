@@ -78,6 +78,7 @@ def generate_summary(text,num_sentences=3):
 	return ' '. join(summary_sentences)
 
 if __name__=="__main__":
+
 	input_text ="""
 	Natural language processing (NLP) is a subfield of artificial intelligence.
 	It involves the development of algorithms and models that enact NLP.
