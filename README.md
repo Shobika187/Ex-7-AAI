@@ -74,6 +74,7 @@ def generate_summary(text,num_sentences=3):
 					sentence_scores[sentence]+= freq
 	
  # Select top N sentences with highest scores
+ 
 	summary_sentences= sorted(sentence_scores, key=sentence_scores.get,reverse=True) [ : num_sentences]
 	return ' '. join(summary_sentences)
 
