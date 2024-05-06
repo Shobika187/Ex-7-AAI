@@ -74,8 +74,7 @@ print(summary)
 
 
 ### Output :
-
-![Screenshot 2024-04-27 212327](https://github.com/Dhanashreemullaithasan/Ex-7-AAI/assets/94165415/13b5ddaf-c2ec-425b-9163-026d7ff66410)
+![image](https://github.com/Dhanashreemullaithasan/Ex-7-AAI/assets/94508142/dbf923b3-3f63-47f0-bcce-e6f3b9dcae35)
 
 ### Result:
 
